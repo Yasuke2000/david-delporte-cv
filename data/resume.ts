@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: 'David Delporte',
   title: 'IT Operations & Security Engineer',
-  tagline: 'Managing IT infrastructure. Driving efficiency through data.',
+  tagline: 'Bridging IT and business. Managing infrastructure through data.',
   location: 'West-Vlaanderen, Belgium',
   email: 'contact@daviddelporte.com',
   phone: '+32 465 89 36 45',
