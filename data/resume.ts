@@ -177,6 +177,19 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    name: 'IT Budget Dashboard',
+    url: 'https://it-finance.daviddelporte.com',
+    description: 'Full-stack IT financial management dashboard pulling live data from Microsoft Business Central. Built for multi-entity IT cost control across 6 locations — budget vs. actual tracking, vendor analysis, license utilization, and cost category breakdowns.',
+    tech: [
+      'Next.js 15 / TypeScript',
+      'Business Central API / Microsoft Graph',
+      'Recharts dashboards / shadcn/ui',
+      'Multi-entity budget tracking',
+      'Peppol e-invoicing integration',
+      'Role-based access with Entra ID',
+    ],
+  },
+  {
     name: 'Production-Grade Homelab',
     url: 'https://homelab.daviddelporte.com',
     description: 'Self-hosted infrastructure running 14+ services at 99.9% uptime for \u20AC17/month',
