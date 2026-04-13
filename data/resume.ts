@@ -178,7 +178,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     name: 'IT Budget Dashboard',
-    url: 'https://it-finance.daviddelporte.com',
+    url: 'https://it-budget-dashboard.vercel.app',
     description: 'Full-stack IT financial management dashboard pulling live data from Microsoft Business Central. Built for multi-entity IT cost control across 6 locations — budget vs. actual tracking, vendor analysis, license utilization, and cost category breakdowns.',
     tech: [
       'Next.js 15 / TypeScript',
