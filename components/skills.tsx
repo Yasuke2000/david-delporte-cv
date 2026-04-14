@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Shield, Cloud, Network, Terminal, Phone, FileText } from 'lucide-react'
+import { Shield, Cloud, Network, Terminal, Phone, FileText, Bot, Users } from 'lucide-react'
 import { skills } from '@/data/resume'
 import { useTheme } from './theme-provider'
 import { SectionHeading } from './section-heading'
@@ -14,6 +14,8 @@ const iconMap: Record<string, React.ReactNode> = {
   Terminal: <Terminal size={20} />,
   Phone: <Phone size={20} />,
   FileText: <FileText size={20} />,
+  Bot: <Bot size={20} />,
+  Users: <Users size={20} />,
 }
 
 export function Skills() {

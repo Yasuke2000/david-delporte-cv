@@ -122,6 +122,10 @@ export const skills: SkillCategory[] = [
       'Wazuh SIEM/XDR', 'Penetration Testing', 'Vulnerability Assessment',
       'Blue/Red Team Operations', 'GDPR Compliance', 'CyFun Framework (NIS2)',
       'ISO 27001', 'Incident Response', 'Security Awareness Training',
+      'Passive OSINT & Attack Surface Mapping', 'Responsible Disclosure (CVD / Bugcrowd)',
+      'DNS Security (SPF, DKIM, DMARC, MTA-STS)', 'Web Security Review (Headers, CSP, HSTS)',
+      'CVSS v3.1 Risk Scoring', 'Certificate Transparency (crt.sh, amass)',
+      'NIST CSF / CIS Controls', 'Cloudflare Security Configuration',
     ],
   },
   {
@@ -159,11 +163,30 @@ export const skills: SkillCategory[] = [
     ],
   },
   {
+    name: 'AI & Automation',
+    icon: 'Bot',
+    skills: [
+      'AI Pipeline Development', 'Custom Model Training & Fine-tuning',
+      'LLM Knowledge Base / Wiki', 'Prompt Engineering',
+      'RAG (Retrieval-Augmented Generation)', 'AI-Assisted Workflow Automation',
+    ],
+  },
+  {
+    name: 'Leadership & Team Management',
+    icon: 'Users',
+    skills: [
+      'IT Team Leadership', 'Cross-functional Team Coordination',
+      'Stakeholder Communication', 'Vendor Management & Negotiation',
+      'Project Planning & Prioritization', 'Mentoring & Knowledge Transfer',
+      'Incident Command & Escalation', 'Process Improvement (Six Sigma)',
+    ],
+  },
+  {
     name: 'Business & Documentation',
     icon: 'FileText',
     skills: [
       'Confluence', 'Jira', 'EDI / OFTP2', 'uniFLOW Print Management',
-      'Vendor Management', 'Stakeholder Communication', 'Technical Documentation',
+      'Technical Documentation',
     ],
   },
 ]
@@ -216,22 +239,30 @@ export const projects: Project[] = [
     ],
   },
   {
+    name: 'External IT Security Audit',
+    url: null,
+    description: 'Passive OSINT audit of a Belgian multi-brand manufacturing group. Critical vulnerability discovered and responsibly disclosed via Bugcrowd. Full IT maturity assessment including DNS security, web security headers, GDPR compliance, and infrastructure analysis across multiple domains.',
+    tech: [
+      'Passive OSINT & Reconnaissance',
+      'Responsible Disclosure (Bugcrowd)',
+      'DNS Security Analysis (SPF/DKIM/DMARC/MTA-STS)',
+      'Web Security Headers Review',
+      'NIST CSF / CIS Controls Assessment',
+      'CVSS v3.1 Risk Scoring',
+      'Certificate Transparency Analysis',
+    ],
+  },
+  {
     name: 'Transport KPI Dashboard',
     url: 'https://github.com/Yasuke2000/transport-kpi-dashboard',
     description: 'Professional Transport & Logistics KPI Dashboard — real-time shipment monitoring, delivery metrics, cost analysis and Excel export.',
     tech: ['JavaScript', 'Chart.js', 'Real-time metrics', 'Excel export'],
   },
   {
-    name: 'Subnet Calculator',
-    url: 'https://github.com/Yasuke2000/Subnet-Calculator',
-    description: 'Python tool for efficient IPv4 subnet calculation and management with VLSM support, IP validation, and various subnetting scenarios.',
-    tech: ['Python', 'VLSM', 'IPv4 subnetting', 'CLI tool'],
-  },
-  {
-    name: 'DPR Calculator',
-    url: 'https://github.com/Yasuke2000/DPR-Calculator-for-D-D',
-    description: 'User-friendly tool to estimate D&D character Damage Per Round considering abilities and conditions.',
-    tech: ['Python', 'Statistical analysis', 'Game mechanics'],
+    name: 'Tachograph Viewer',
+    url: 'https://github.com/Yasuke2000/tachoviewer',
+    description: 'Web-based tachograph driver card (.ddd) file parser and viewer for transport & logistics compliance. Visualizes driving, rest, work, and availability activities per day.',
+    tech: ['React 19', 'Vite', 'Binary file parsing', 'Transport compliance'],
   },
 ]
 
@@ -246,13 +277,13 @@ export const education: Education[] = [
   {
     institution: 'Hogeschool VIVES',
     degree: 'Graduate Diploma Network Engineering',
-    period: '2022 — 2025',
+    period: '2022',
     focus: 'Network administration, cybersecurity, firewall configuration, server management',
   },
   {
     institution: 'HOWEST Hogeschool West-Vlaanderen',
     degree: 'Bachelor Information Technology',
-    period: '2019 — 2025',
+    period: '2019',
     focus: 'IT operations, project management, applied informatics',
   },
 ]

@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ExternalLink, Server } from 'lucide-react'
+import { ExternalLink, Server, Shield } from 'lucide-react'
 
 function GithubIcon({ size = 20 }: { size?: number }) {
   return (
@@ -42,6 +42,8 @@ export function Projects() {
                 <div className="flex items-center gap-2">
                   {index === 0 ? (
                     <Server size={20} className="text-accent" />
+                  ) : !project.url ? (
+                    <Shield size={20} className="text-accent" />
                   ) : (
                     <span className="text-accent"><GithubIcon size={20} /></span>
                   )}

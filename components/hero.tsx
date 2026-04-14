@@ -28,6 +28,8 @@ const titles = [
   'System Engineer',
   'Cloud Infrastructure Specialist',
   'Cybersecurity Professional',
+  'IT Team Lead & Operations Manager',
+  'AI & Automation Engineer',
 ]
 
 export function Hero() {
