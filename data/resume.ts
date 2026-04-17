@@ -10,7 +10,7 @@ export const personalInfo = {
   homelab: 'https://homelab.daviddelporte.com',
 }
 
-export const profile = `IT Operations & Security professional with 4+ years of experience across system engineering, cybersecurity operations, and IT infrastructure management. Currently managing multi-site IT infrastructure (6 locations) at a Belgian logistics company, covering Microsoft 365, Azure Virtual Desktop, Intune/Autopilot, network security (UniFi/Meraki/Barracuda), VoIP (3CX), and EDI systems.
+export const profile = `IT Operations & Security professional with 4+ years of experience across system engineering, cybersecurity operations, and IT infrastructure management. Currently managing multi-site IT infrastructure (6 locations) at Gheeraert Group, covering Microsoft 365, Azure Virtual Desktop, Intune/Autopilot, network security (UniFi/Meraki/Barracuda), VoIP (3CX), and EDI systems.
 
 Strong focus on security-first design with hands-on experience in SIEM/XDR deployment (Wazuh), penetration testing, vulnerability assessments, and CISO/DPO collaboration. Skilled in vendor management, stakeholder communication, and translating complex technical requirements into business solutions.
 
@@ -28,12 +28,12 @@ export interface Experience {
 
 export const experience: Experience[] = [
   {
-    company: 'Belgian Logistics Company',
+    company: 'Gheeraert Group',
     location: 'Loppem, Belgium',
     role: 'IT System Engineer',
     type: 'Full-time',
     period: 'June 2025 — Present',
-    description: 'Multi-site IT operations across 6 locations in a Belgian logistics & transport company',
+    description: 'Multi-site IT operations across 6 locations at Gheeraert Group, a Belgian logistics & transport company',
     highlights: [
       'Azure Virtual Desktop rollout for 100+ users — Autopilot, Intune, hybrid Azure AD join, Conditional Access, MFA',
       'Microsoft 365 multi-tenant management (4 entities), Business Central GDAP, licensing & shared mailboxes',
