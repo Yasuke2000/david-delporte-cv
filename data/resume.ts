@@ -10,7 +10,7 @@ export const personalInfo = {
   homelab: 'https://homelab.daviddelporte.com',
 }
 
-export const profile = `IT Operations & Security professional with 4+ years of experience across system engineering, cybersecurity operations, and IT infrastructure management. Currently managing multi-site IT infrastructure (6 locations) at Belgian Logistics Company, covering Microsoft 365, Azure Virtual Desktop, Intune/Autopilot, network security (UniFi/Meraki/Barracuda), VoIP (3CX), and EDI systems.
+export const profile = `IT Operations & Security professional with 4+ years of experience across system engineering, cybersecurity operations, and IT infrastructure management. Currently managing multi-site IT infrastructure (6 locations) at a Belgian logistics company, covering Microsoft 365, Azure Virtual Desktop, Intune/Autopilot, network security (UniFi/Meraki/Barracuda), VoIP (3CX), and EDI systems.
 
 Strong focus on security-first design with hands-on experience in SIEM/XDR deployment (Wazuh), penetration testing, vulnerability assessments, and CISO/DPO collaboration. Skilled in vendor management, stakeholder communication, and translating complex technical requirements into business solutions.
 
